@@ -62,7 +62,7 @@ InfoVizGeek 是一个项目，它涉及不同的工具和技术，使个人能�
 
 ### 高级专题
 
- 1. [知识可视化](#knowledge-representation)
+ 1. [知识可视化](#知识可视化)
 
  
 #### C
@@ -91,8 +91,8 @@ _______
  - [地图](#地图)
  - [文本可视化](#文本可视化)
  - [基于D3的库](#基于D3的库)
- - [流程图库](#flowchart-libraries)
- - [其他有用的JavaScript组件](#other-useful-javascript-components)
+ - [流程图库](#流程图库)
+ - [其他有用的JavaScript组件](#其他有用的JavaScript组件)
 
 
 ##### 图表库
@@ -138,8 +138,8 @@ _______
 
 | Framework/SDK         | Link | Type | License |
 |-----------------------|------|------|---------|
-| Tangle                | http://bit.ly/1Dnsjie | 反应文件     |  MIT       |
-| jqCloud               | http://bit.ly/1NESz9c | 标签云       | PERSONAL   |
+| Tangle                | http://worrydream.com/Tangle/ | 反应文件     |  MIT       |
+| jqCloud               | http://www.lucaongaro.eu/demos/jqcloud/ | 标签云       | PERSONAL   |
 
 ##### 基于D3的库
 
@@ -148,53 +148,53 @@ _______
 | NVD3            | http://nvd3.org | 基于D3的可重用图表库 | Apache License V2  |
 | C3              | http://c3js.org | 基于D3的可重用图表库 | MIT  |
 | DimpleJS        | http://dimplejs.org   | 基于D3的可重用图表库 | MIT  |
-| DC              | http://bit.ly/1NAI4lm | 多维图表(基于 [CrossFilter](#other-useful-javascript-components)) | Apache License V2  |
-| D3Xter          | http://bit.ly/1xU2m7P  | 基于D3的可重用图表库 | MIT  |
+| DC              | https://dc-js.github.io/dc.js/ | 多维图表(基于 [CrossFilter](#other-useful-javascript-components)) | Apache License V2  |
+| D3Xter          | https://d3xterjs.github.io/ | 基于D3的可重用图表库 | MIT  |
 | MetricsGraphics | http://metricsgraphicsjs.org | 时间序列优化可视化方法 |Mozilla Public License V2   |
-| Epoch           | http://bit.ly/1G44VH6 | 实时可视化库 | MIT  |
-| Sparkline       | http://bit.ly/1IjkB6P | 没有坐标轴的小线图 | New BSD  |
-| Dynamic-Charts  | http://bit.ly/1E3BlzT | 动态填充的图形 |TBD|
-| Cubism.js       | http://bit.ly/1E3C8Ra | Cubism.js 是一个用于可视化时间序列的D3插件。使用Cubism构建更好的实时仪表板，从Graphite、Cube或其他资源中提取数据 |Apache License|
-| Rickshaw        | http://bit.ly/1HPtrJB | 用于创建交互式时间序列图的JavaScript工具包 |PRIVATE|
-| function-plot   | http://bit.ly/1GaYWxD | Function Plot 是一个建立在D3.js上面的小型库，它的目标是通过较少配置绘制函数（它是Google绘图实用程序的一个克隆：y=x*x）|MIT|
+| Epoch           | https://epochjs.github.io/epoch/ | 实时可视化库 | MIT  |
+| Sparkline       | http://omnipotent.net/jquery.sparkline/ | 没有坐标轴的小线图 | New BSD  |
+| Dynamic-Charts  | http://bl.ocks.org/mlarocca/4339162 | 动态填充的图形 |TBD|
+| Cubism.js       | https://square.github.io/cubism/ | Cubism.js 是一个用于可视化时间序列的D3插件。使用Cubism构建更好的实时仪表板，从Graphite、Cube或其他资源中提取数据 |Apache License|
+| Rickshaw        | http://code.shutterstock.com/rickshaw/ | 用于创建交互式时间序列图的JavaScript工具包 |PRIVATE|
+| function-plot   | http://turfjs.org/ | Function Plot 是一个建立在D3.js上面的小型库，它的目标是通过较少配置绘制函数（它是Google绘图实用程序的一个克隆：y=x*x）|MIT|
 
-##### Flowchart Libraries
+##### 流程图库
 
 | Framework/SDK | Link | Type | License |
 |---------------|------|------|---------|
-| JSPlumb       |http://bit.ly/1I01GRA| Connections & Flow|   MIT & GPLv2      |
-|Flowchart.js|http://bit.ly/1G5yd8a|Simple SVG Flowchart Diagram|PRIVATE|
-|JointJS|http://www.jointjs.com|JavaScript Diagramming Lib|Mozilla Public License V2|
-|Wirelt|http://bit.ly/1G5Aj85|create full-web graph editors for dataflow applications, visual programming languages, graphical modeling, or graph editors.|MIT|
-|Ambor.js|http://arborjs.org|A graph visualization library using web workers and jQuery|MIT|
-|js-graph.it|http://bit.ly/1NKdDet|Represent graphs in html pages by linking blocks with connectors|UNKNOWN|
-|cytoscape.js|http://bit.ly/1N4RIlo|JavaScript Implementation of [Cytoscape](#knowledge-representation)|LGPL|
-|JSNetworkX|http://jsnetworkx.org/|JSNetworkX allows you to build, process and analyze graphs in JavaScript. It can be used together with D3.js in the browser to create interactive graph visualizations|BSD|
-|CodeFlower Visualization|http://bit.ly/1DiX9XB|This experiment visualizes source repositories using an interactive tree. Each disc represents a file, with a radius proportional to the number of lines of code (loc). All rendering is done client-side, in JavaScript|PRIVATE|
+| JSPlumb       | https://jsplumbtoolkit.com/ | 联系 & 流程 |   MIT & GPLv2      |
+| Flowchart.js  | http://flowchart.js.org/ | 简单的SVG流程图 | PRIVATE |
+| JointJS       | http://www.jointjs.com | JavaScript图表库 | Mozilla Public License V2 |
+| Wirelt        | https://github.com/neyric/wireit | 为数据流应用程序，可视化编程语言，图形建模或图形编辑器创建全网图形编辑器。 |MIT|
+| Ambor.js      | http://arborjs.org | 使用web worker和jQuery的图形可视化库 |MIT|
+| js-graph.it   | http://bit.ly/1NKdDet | 通过链接块与连接器来表示HTML页面中的图形 |UNKNOWN|
+| cytoscape.js  | http://bit.ly/1N4RIlo | [Cytoscape](#knowledge-representation)的JavaScript实现 |LGPL|
+| JSNetworkX    | http://jsnetworkx.org/ | JSNetworkX 允许你使用JavaScript构建、处理和分析图形。它可以与浏览器中的D3.js一起使用来创建交互式图形可视化。 |BSD|
+| CodeFlower Visualization | http://bit.ly/1DiX9XB | 此实验使用交互式树状可视化源存储库。每个盘表示一个文件，其半径与代码行数（loc）成比例。所有的渲染都是在客户端的JavaScript中完成的。 |PRIVATE|
 
-##### Other Useful JavaScript Components
+##### 其他有用的JavaScript组件
 
 | Framework/SDK         | Link | Type | License |
 |-----------------------|------|------|---------|
-| ThreeJS|http://threejs.org|WebGL Lib      |  MIT       |
-| D3JS | http://d3js.org|Data Driven Documents,uses SVG for Viz|PERSONAL|
-|Path.js|http://bit.ly/1BPIEW3|Generate SVG paths for geometric shapes|Apache V2|
-| ProcessingJS| http://processingjs.org|Port to Processing Language for Viz, Design & Interactive Content      |  MIT       |
-| PaperJS|http://paperjs.org| Vector Graphics Scripting     |  PERSONAL       |
-| CrossFilter|http://bit.ly/19yOdl1|Library for Dimensional Filtering      | Apache License V2 |
-|Dance.js|http://bit.ly/1CdZ1wC|Dance.js is a simple data-driven visualization framework. It's basically a flavor of Backbone.js, but enriched with some of the ideas of the very popular D3.js visualization framework|PRIVATE|
-|iopctrl.js|http://iop.io/iopctrl|OpenSource Library for making simple user interface controls leveraged by D3|UNKNOWN|
-|Visual sedimentation|http://www.visualsedimentation.org|Visual sedimentation is a novel design metaphor that progressively generates and updates visualizations of streaming data, inspired by the process of physical sedimentation|PRIVATE|
+| ThreeJS               | http://threejs.org | WebGL库  |  MIT       |
+| D3JS                  | http://d3js.org | 数据驱动文档，使用SVG来可视化  |PERSONAL|
+| Path.js               | https://andreaferretti.github.io/paths-js-demo/ | 生成几何形状的SVG路径  |Apache V2|
+| ProcessingJS          | http://processingjs.org | 处理可视化、设计和交互式内容语言的端口 |  MIT    |
+| PaperJS               | http://paperjs.org | 矢量图形脚本 |  PERSONAL       |
+| CrossFilter           | https://square.github.io/crossfilter/ | 维度过滤图库（选择坐标横轴的一个区间） | Apache License V2 |
+| Dance.js              | https://github.com/michael/dance | Dance.js 是一个简单的数据驱动可视化框架。 它基本上是Backbone.js的味道，但融入了非常受欢迎的D3.js可视化框架的一些想法 |PRIVATE|
+| iopctrl.js            | http://iop.io/iopctrl | 用来通过D3制作简单的用户界面控件的开源库  |UNKNOWN|
+| Visual sedimentation  | http://www.visualsedimentation.org | 视觉沉淀是一种新颖的设计隐喻，逐渐生成和更新流数据的可视化，灵感来自物理沉淀过程  |PRIVATE|
 _________________________________________________
 
 #### Java
 
 | Framework/SDK | Link | Type | Platform | License |
 |---------------|-----------------------|----------------------------|----------------|----------------|
-| JavaFX | http://bit.ly/1ybbNun | Rich Internet applications | Cross-platform | parts underGPL |
-| Prefuse | http://bit.ly/1OA2jmB | Java 2D graphics library | - | BSD license |
-| JFree | http://bit.ly/1bwz7ho | Plotting Software | Cross-platform | LGPL |
-| Jung | http://bit.ly/1BNIiic | graph clustering | Cross-platform | BSDlicense |
+| JavaFX        | http://docs.oracle.com/javase/8/javase-clienttechnologies.htm | 丰富的互联网应用 | Cross-platform | parts underGPL |
+| Prefuse       | http://prefuse.org/ | Java 2D 图形库 | - | BSD license |
+| JFree         | http://www.jfree.org/jfreechart/ | 绘图软件 | Cross-platform | LGPL |
+| Jung          | http://jung.sourceforge.net/ | 图聚类 | Cross-platform | BSDlicense |
 
 ____________________________________________________________________
 
@@ -211,17 +211,17 @@ _____________________________________________________________________
 #### Python
 | Framework/SDK | Link | Type | License |
 |---------------|----------------------------|---------------------------|----------|
-| Bokeh | http://bit.ly/1IyyjDy | Interactive Visualization | BSD |
-| Vispy | http://bit.ly/1FL7bTj | OpenGL | BSD |
-| Seaborn | http://stanford.io/1EXCN5p | Statistical Visualization | PERSONAL |
-| Matplotlib | http://bit.ly/1GZiQet | 2D Plotting | PSF |
-| Python IGraph | http://bit.ly/1NiYi2x | Graph/Plots | GPL |
-| ggPlot | http://bit.ly/1Gsz1my | Plots | PERSONAL |
-| NetworkX | http://bit.ly/1ycAuX7 | Complex Networks |  |
-| PyGraphViz |http://bit.ly/1G4IuS0|GraphViz & Viz Lib | BSD |
-| Pandas |http://pandas.pydata.org|High Performance Data Structure & Analysis tool  | BSD |
-| PyGal |http://pygal.org  |Python svg Graph plotting Library|GNU Lesser GPL  |
-| Plotly |https://plot.ly  |Online Data Visualization  |PRIVATE  |
+| Bokeh | http://bokeh.pydata.org/en/latest/ | 交互式可视化 | BSD |
+| Vispy | http://vispy.org/ | OpenGL | BSD |
+| Seaborn | http://seaborn.pydata.org/ | 统计可视化 | PERSONAL |
+| Matplotlib | http://matplotlib.org/ | 2D 绘图 | PSF |
+| Python IGraph | http://igraph.org | 图形/图解 | GPL |
+| ggPlot | https://yhat.github.io/ggpy/ | 绘图 | PERSONAL |
+| NetworkX | https://networkx.github.io/ | 复杂网络 |  |
+| PyGraphViz | https://pygraphviz.github.io/ | 图形可视化 & 可视化库 | BSD |
+| Pandas | http://pandas.pydata.org/ | 高性能数据结构 & 分析工具 | BSD |
+| PyGal | http://pygal.org  | Python svg 图形绘图库 |GNU Lesser GPL  |
+| Plotly |https://plot.ly  | 在线数据可视化 |PRIVATE  |
 
 _________________________________________________________________________
 #### Ruby
@@ -231,22 +231,22 @@ __________________________________________________
 #### R
 | Framework/SDK         | Link | Type | License |
 |-----------------------|------|------|---------|
-|rCharts|http://bit.ly/1F9OrNz|R package to create, customize and publish interactive javascript visualizations from R using a familiar lattice style plotting interface.|MIT|
-|RGraph|http://www.rgraph.net|Create beautiful JavaScript charts|Creative Commons BY-NC|
+| rCharts | https://ramnathv.github.io/rCharts/ | 从R使用熟悉的格子样式绘图界面创建、自定义和发布交互式JavaScript可视化的 R 包。 |MIT|
+| RGraph  | http://www.rgraph.net | 创建漂亮的JavaScript图表 |Creative Commons BY-NC|
 
 _________________________________________________
 
-#### Knowledge Representation 
+#### 知识可视化
 
 | Framework/SDK | Link | Type | License |
 |---------------|------|------|---------|
-| Cytoscape|http://www.cytoscape.org|Cytoscape is an open source software platform for visualizing complex networks and integrating these with any type of attribute data. Also has a [JavaScript Implementation](#flowchart-libraries) |LGPL|
-|RDF-Gravity|http://bit.ly/1JlAWc7|RDF Graph Visualization Tool|PRIVATE|
-|Gruff|http://bit.ly/1DHAwy4|A Grapher-Based Triple-Store Browser for AllegroGraph|UNKNOWN|
-|Sgvizler|http://bit.ly/1c577la|Sgvizler is a javascript which renders the result of SPARQL SELECT queries into charts or html elements.|NOT SURE|
-|SOVA|http://stanford.io/1FiJP2b|SOVA (Simple Ontology Visualization API) is a Protege plugin to full ontology visualization. Finally we can show all ontology's elements: classes, individuals, properties, anonymous classes and relations between these object.|LGPL V3|
-|VRAER|http://bit.ly/1GItS9K|Viewing Relations, Attributes, and Entities in RDF|UNKNOWN|
-|Wandora|http://wandora.org|Wandora is a tool for people who collect and process information, especially networked knowledge and knowledge about WWW resources|GNU GPL V3|
-|Gource|http://bit.ly/1DIJD1s|Software Version Control Visualization|GNU GPL V3|
+| Cytoscape     | http://www.cytoscape.org | Cytoscape 是一个用于可视化复杂网络并将其与任何类型的属性数据集成的开源软件平台。也有一个 [JavaScript 实现](#flowchart-libraries) |LGPL|
+| RDF-Gravity   | http://bit.ly/1JlAWc7 | RDF 图形可视化工具 |PRIVATE|
+| Gruff         | http://bit.ly/1DHAwy4 | A Grapher-Based Triple-Store Browser for AllegroGraph | UNKNOWN |
+| Sgvizler      | http://bit.ly/1c577la | Sgvizler 是一个 javascript 脚本文件，它可以渲染 SPARQL SELECT 查询结果到图标或者 HTML 元素中。 |NOT SURE|
+| SOVA          | http://stanford.io/1FiJP2b | SOVA (Simple Ontology Visualization API,简单的本体可视化API) 是完整的本体可视化的Protege插件。最后，我们可以显示所有本体的元素：类、个体、属性、匿名类和这些对象之间的关系。 |LGPL V3|
+| VRAER         | http://bit.ly/1GItS9K | 查看RDF中的关系、属性和实体 |UNKNOWN|
+| Wandora       | http://wandora.org | Wandora 是收集和处理信息的工具，特别是联网知识和万维资源知识。 |GNU GPL V3|
+| Gource        | http://bit.ly/1DIJD1s | 软件版本控制可视化 |GNU GPL V3|
 
 
