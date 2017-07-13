@@ -1,31 +1,30 @@
 InfoViz Geek 
 ==========
 ![Made By Information Visualization Geeks](https://raw.githubusercontent.com/shivkumarganesh/InfoVizGeek/master/Webchemy.png)
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/shivkumarganesh/infovizgeek/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-###Introduction
-InfoVizGeek is a project which talks about the different tools and technologies which would enable an individual to create data visualizations. This repo has a vast list of tools along with their licensing available. This is an exhaustive list and I would be glad to accept additional tools which you guys out there in community use.
+### 介绍
+InfoVizGeek 是一个项目，它涉及不同的工具和技术，使个人能够创建数据可视化。这里具有广泛的工具列表及其许可证。这是一个详尽的列表，我很乐意知晓你在社区使用的其他工具。
 
-###Visualization Classification
-According to my research and understanding till now, I would go ahead and set up a classification of all the visualizations. The visualizations can be broadly classified  as follows:-
+### 可视化分类
+根据我到现在的研究和理解，我试着为所有的可视化方法设置一个分类。可视化方法可以大致分为如下几类：
 
- 1. Charts
- 2. Maps
- 3. Time Series
- 4. Flow
- 5. Matrix
- 6. Network
- 7. Hierarchy
- 8. Infographics
+ 1. 图表
+ 2. 地图
+ 3. 时间序列图
+ 4. 流量图
+ 5. 矩阵图
+ 6. 网络图
+ 7. 层次图
+ 8. 信息图表
  9. Multiple
- 10. Physical
+ 10. 物理导向图
 
-###Tools & Frameworks
+### 工具 & 框架
 We can broadly divide this entire thing into two parts. 
 
  1. Talking about Tools that facilitate Visualizations
  2. Frameworks that enable an Individual with the language he/she is comfortable in. 
 
-###Tools
+### Tools
  1. [TileMill](https://www.mapbox.com/tilemill/)
  2. [Spss](http://www-01.ibm.com/software/in/analytics/spss/)
  3. [Matlab](http://in.mathworks.com/products/matlab/)
@@ -49,7 +48,7 @@ We can broadly divide this entire thing into two parts.
  20. [Orange](http://orange.biolab.si/)
  21. [Lightning - Open Source Data Visualization Server](http://http://lightning-viz.org/-viz.org/)
 
-###Frameworks based on Programming Languages
+### Frameworks based on Programming Languages
  1. [C](#c)
  2. [IOS](#ios)
  2. [JavaScript](#javascript)
@@ -60,12 +59,13 @@ We can broadly divide this entire thing into two parts.
  7. [Ruby](#ruby)
  8. [R](#r)
 
-###Advance Topics
+### Advance Topics
 
  1. [Knowledge Representation](#knowledge-representation)
 
  
-####C
+#### C
+
 | SN0. 	| Framework/SDK 	| Link                  	| License                	|
 |------	|---------------	|-----------------------	|------------------------	|
 | 1    	| GraphViz      	| http://bit.ly/19mQ0Jr 	| Eclipse Public License 	|
@@ -73,7 +73,7 @@ We can broadly divide this entire thing into two parts.
 
 _______
 
-####IOS
+#### IOS
 | Framework/SDK 	|  Link	| Type                  	| License                	|
 |------	|---------------	|-----------------------	|------------------------	|
 | ios-charts    	|  http://bit.ly/1c2RISl     	| An iOS port of the beautiful MPAndroidChart. - Beautiful charts for iOS apps! | Apache License V2 	|
@@ -82,7 +82,7 @@ _______
 _______
 
 
-####JavaScript
+#### JavaScript
 Its always better to divide JavaScript or any other library with tons of options into subsequent subdivisions.
 
  - [Charting Libraries](#charting-libraries)
@@ -93,7 +93,8 @@ Its always better to divide JavaScript or any other library with tons of options
  - [Other useful JavaScript Components](#other-useful-javascript-components)
 
 
-#####Charting Libraries
+##### Charting Libraries
+
 | Framework/SDK | Link | Type | License |
 |---------------|------|------|---------|
 | TauCharts     |http://bit.ly/1Nytafs|Charting Library|Apache License    |
@@ -112,7 +113,8 @@ Its always better to divide JavaScript or any other library with tons of options
 |gRaphaël|http://g.raphaeljs.com|gRaphaël’s goal is to help you create stunning charts on your website. It is based on Raphaël graphics library.|MIT|
 |Highcharts|http://www.highcharts.com|Create interactive charts easily for your web projects|CC Non-Commercial V3 or PRIVATE|
 
-#####Maps
+##### Maps
+
 | Framework/SDK            | Link | Type | License |
 |--------------------------|------|------|---------|
 | Leaflet | http://bit.ly/1CIDxvu| Interactive Map     |   PERSONAL      |
@@ -130,13 +132,15 @@ Its always better to divide JavaScript or any other library with tons of options
 | Cesium                   | http://cesiumjs.org| WebGl Virtual Globe     |   Messed Up License      |
 |SimpleMaps|http://simplemaps.com|Customize maps by editing an online spreadsheet or simple text file. No knowledge of HTML5, Flash, or JavaScript is required. |PRIVATE|
 
-#####Text Visualization
+##### Text Visualization
+
 | Framework/SDK         | Link | Type | License |
 |-----------------------|------|------|---------|
 | Tangle  |  http://bit.ly/1Dnsjie    | Reactive Documents     |  MIT       |
 |jqCloud|http://bit.ly/1NESz9c|Tag Cloud|PERSONAL|
 
-#####D3 Based Libraries
+##### D3 Based Libraries
+
 | Framework/SDK   | Link | Type | License  |
 |-----------------|------|------|---|
 | NVD3| http://nvd3.org |D3 based reusable Charting Lib   | Apache License V2  |
@@ -152,7 +156,8 @@ Its always better to divide JavaScript or any other library with tons of options
 |Rickshaw|http://bit.ly/1HPtrJB|A JavaScript toolkit for creating interactive time-series graphs|PRIVATE|
 |function-plot|http://bit.ly/1GaYWxD|Function Plot is a small library built on top of D3.js whose purpose is to render functions with little configuration (think of it as a little clone of Google's plotting utility: y=x2)|MIT|
 
-#####Flowchart Libraries
+##### Flowchart Libraries
+
 | Framework/SDK | Link | Type | License |
 |---------------|------|------|---------|
 | JSPlumb       |http://bit.ly/1I01GRA| Connections & Flow|   MIT & GPLv2      |
@@ -165,7 +170,8 @@ Its always better to divide JavaScript or any other library with tons of options
 |JSNetworkX|http://jsnetworkx.org/|JSNetworkX allows you to build, process and analyze graphs in JavaScript. It can be used together with D3.js in the browser to create interactive graph visualizations|BSD|
 |CodeFlower Visualization|http://bit.ly/1DiX9XB|This experiment visualizes source repositories using an interactive tree. Each disc represents a file, with a radius proportional to the number of lines of code (loc). All rendering is done client-side, in JavaScript|PRIVATE|
 
-#####Other Useful JavaScript Components
+##### Other Useful JavaScript Components
+
 | Framework/SDK         | Link | Type | License |
 |-----------------------|------|------|---------|
 | ThreeJS|http://threejs.org|WebGL Lib      |  MIT       |
@@ -179,7 +185,8 @@ Its always better to divide JavaScript or any other library with tons of options
 |Visual sedimentation|http://www.visualsedimentation.org|Visual sedimentation is a novel design metaphor that progressively generates and updates visualizations of streaming data, inspired by the process of physical sedimentation|PRIVATE|
 _________________________________________________
 
-####Java
+#### Java
+
 | Framework/SDK | Link | Type | Platform | License |
 |---------------|-----------------------|----------------------------|----------------|----------------|
 | JavaFX | http://bit.ly/1ybbNun | Rich Internet applications | Cross-platform | parts underGPL |
@@ -189,16 +196,17 @@ _________________________________________________
 
 ____________________________________________________________________
 
-####Flash
+#### Flash
+
 | Framework/SDK         | Link | Type | License |
 |-----------------------|------|------|---------|
 
 _____________________________________________________________________
-####Processing
+#### Processing
 | Framework/SDK         | Link | Type | License |
 |-----------------------|------|------|---------|
 _____________________________________________________________________
-####Python
+#### Python
 | Framework/SDK | Link | Type | License |
 |---------------|----------------------------|---------------------------|----------|
 | Bokeh | http://bit.ly/1IyyjDy | Interactive Visualization | BSD |
@@ -214,11 +222,11 @@ _____________________________________________________________________
 | Plotly |https://plot.ly  |Online Data Visualization  |PRIVATE  |
 
 _________________________________________________________________________
-####Ruby
+#### Ruby
 | Framework/SDK         | Link | Type | License |
 |-----------------------|------|------|---------|
 __________________________________________________
-####R
+#### R
 | Framework/SDK         | Link | Type | License |
 |-----------------------|------|------|---------|
 |rCharts|http://bit.ly/1F9OrNz|R package to create, customize and publish interactive javascript visualizations from R using a familiar lattice style plotting interface.|MIT|
@@ -226,7 +234,7 @@ __________________________________________________
 
 _________________________________________________
 
-####Knowledge Representation 
+#### Knowledge Representation 
 
 | Framework/SDK | Link | Type | License |
 |---------------|------|------|---------|
