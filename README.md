@@ -1,4 +1,4 @@
-InfoViz Geek 
+信息可视化极客(Infoviz Geek)
 ==========
 ![Made By Information Visualization Geeks](https://raw.githubusercontent.com/shivkumarganesh/InfoVizGeek/master/Webchemy.png)
 ### 介绍
@@ -19,12 +19,13 @@ InfoVizGeek 是一个项目，它涉及不同的工具和技术，使个人能�
  10. 物理导向图
 
 ### 工具 & 框架
-We can broadly divide this entire thing into two parts. 
 
- 1. Talking about Tools that facilitate Visualizations
- 2. Frameworks that enable an Individual with the language he/she is comfortable in. 
+我们可以把这一节大致分为两部分。
 
-### Tools
+ 1. 讨论可视化的便利工具
+ 2. 适用于个人熟悉的编程语言的框架
+
+### 工具
  1. [TileMill](https://www.mapbox.com/tilemill/)
  2. [Spss](http://www-01.ibm.com/software/in/analytics/spss/)
  3. [Matlab](http://in.mathworks.com/products/matlab/)
@@ -48,7 +49,7 @@ We can broadly divide this entire thing into two parts.
  20. [Orange](http://orange.biolab.si/)
  21. [Lightning - Open Source Data Visualization Server](http://http://lightning-viz.org/-viz.org/)
 
-### Frameworks based on Programming Languages
+### 基于编程语言的框架
  1. [C](#c)
  2. [IOS](#ios)
  2. [JavaScript](#javascript)
@@ -59,102 +60,103 @@ We can broadly divide this entire thing into two parts.
  7. [Ruby](#ruby)
  8. [R](#r)
 
-### Advance Topics
+### 高级专题
 
- 1. [Knowledge Representation](#knowledge-representation)
+ 1. [知识可视化](#knowledge-representation)
 
  
 #### C
 
 | SN0. 	| Framework/SDK 	| Link                  	| License                	|
 |------	|---------------	|-----------------------	|------------------------	|
-| 1    	| GraphViz      	| http://bit.ly/19mQ0Jr 	| Eclipse Public License 	|
+| 1    	| GraphViz      	| http://bit.ly/19mQ0Jr 	| Eclipse公共许可证       	|
 
 
 _______
 
 #### IOS
+
 | Framework/SDK 	|  Link	| Type                  	| License                	|
 |------	|---------------	|-----------------------	|------------------------	|
-| ios-charts    	|  http://bit.ly/1c2RISl     	| An iOS port of the beautiful MPAndroidChart. - Beautiful charts for iOS apps! | Apache License V2 	|
+| ios-charts    	|  http://bit.ly/1c2RISl     	| 美观的 MPAndroidChart 的iOS端口。- 用于 IOS 应用的漂亮图表！ | Apache License V2 	|
 
 
 _______
 
 
 #### JavaScript
-Its always better to divide JavaScript or any other library with tons of options into subsequent subdivisions.
+最好将JavaScript 或者其他库根据选项分为更细致的分类。
 
- - [Charting Libraries](#charting-libraries)
- - [Maps](#maps)
- - [Text Visualization](#text-visualization)
- - [D3 Based Libraries](#d3-based-libraries)
- - [Flowchart Libraries](#flowchart-libraries)
- - [Other useful JavaScript Components](#other-useful-javascript-components)
+ - [图表库](#图表库)
+ - [地图](#地图)
+ - [文本可视化](#文本可视化)
+ - [基于D3的库](#基于D3的库)
+ - [流程图库](#flowchart-libraries)
+ - [其他有用的JavaScript组件](#other-useful-javascript-components)
 
 
-##### Charting Libraries
+##### 图表库
 
-| Framework/SDK | Link | Type | License |
-|---------------|------|------|---------|
-| TauCharts     |http://bit.ly/1Nytafs|Charting Library|Apache License    |
-| VisJS         |   http://bit.ly/1OUagmW   |   In Browser Viz   |  MIT       |
-| TimesheetJS   |  http://bit.ly/1xSqRCv    | Data & Event Viz    |   MIT      |
-| Chartist      | http://bit.ly/1xSrFao|   Responsive Charts |Do Whatever      |
-| ChartJS       |http://bit.ly/1EY68tT|Clean & Engaging Charts|  PERSONAL |
-| Ember Charts  | http://bit.ly/1C14qG7|EmberJS & D3 Lib| Apache License     |
-| Rahpael       |  http://bit.ly/1IhMcVY    |  Vector Drawing    |   MIT      |
-| Sparky        |   http://bit.ly/19EwDfc   |  Line Chart Lib | Unknown        |
-| PolyJS|http://bit.ly/1Dnbp3x|Interactive Charts|CC Non Commercial      |
-| JQPlot        |  http://bit.ly/19wmSQw    | Plotting & Charting |   MIT      |
-| FFChart Well  |http://bit.ly/1CHiUjq      | TypeFace for Graphs|  Unknown    |
-|Flot|http://www.flotcharts.org|JavaScript Charts for Jquery|PRIVATE|
-|JSXGraph|http://bit.ly/1xA9CW1|Dynamic Mathematics Viz Lib|MIT/GNU|
-|gRaphaël|http://g.raphaeljs.com|gRaphaël’s goal is to help you create stunning charts on your website. It is based on Raphaël graphics library.|MIT|
-|Highcharts|http://www.highcharts.com|Create interactive charts easily for your web projects|CC Non-Commercial V3 or PRIVATE|
+| Framework/SDK | Link                      | Type                     | License            |
+|---------------|---------------------------|--------------------------| ------------------ |
+| TauCharts     | http://bit.ly/1Nytafs     | 图表库                   | Apache License      |
+| VisJS         | http://bit.ly/1OUagmW     | 浏览器可视化              | MIT                |
+| TimesheetJS   | http://bit.ly/1xSqRCv     | 数据与事件可视化          |  MIT                |
+| Chartist      | http://bit.ly/1xSrFao     | 响应式图表                | Do Whatever        |
+| ChartJS       | http://bit.ly/1EY68tT     | 简洁美观图表              | PERSONAL           |
+| Ember Charts  | http://bit.ly/1C14qG7     | EmberJS & D3 库          | Apache License     |
+| Rahpael       | http://bit.ly/1IhMcVY     | 矢量绘图                  | MIT                |
+| Sparky        | http://bit.ly/19EwDfc     | 线型图表库                | Unknown            |
+| PolyJS        | http://bit.ly/1Dnbp3x     | 交互式图表                | CC Non Commercial  |
+| JQPlot        | http://bit.ly/19wmSQw     | 绘图和图表                | MIT                |
+| FFChart Well  | http://bit.ly/1CHiUjq     | 图形字体                  | Unknown            |
+| Flot          | http://www.flotcharts.org | Jquery 的 JavaScrip t图表 | PRIVATE            |
+| JSXGraph      | http://bit.ly/1xA9CW1     | 动态数学可视化库           | MIT/GNU            |
+| gRaphaël      | http://g.raphaeljs.com    | gRaphaël 的目标是帮助你在网站上创建令人惊叹的图表。它依赖于 Raphaël 图形库 |MIT|
+| Highcharts    | http://www.highcharts.com | 为你的Web项目轻松创建交互式图表       |CC Non-Commercial V3 or PRIVATE|
 
-##### Maps
+##### 地图
 
-| Framework/SDK            | Link | Type | License |
-|--------------------------|------|------|---------|
-| Leaflet | http://bit.ly/1CIDxvu| Interactive Map     |   PERSONAL      |
-|DataMaps|http://bit.ly/1FAuQmZ|Customizable SVG map visualizations for the web in a single Javascript file using D3.js|MIT|
-| TopoJSON|http://bit.ly/1EZpBuj| GeoJSON that encodes topology|PERSONAL|
-| Leaflet Plugins|  http://bit.ly/1BIVkho    |  Plugins for Leaflet|  PERSONAL|
-| Leaflet Generator| http://bit.ly/1HhAYjV|  Yoeman Generator    |  -       |
-| Planetary |http://bit.ly/1FeyrqL| Interactive Globes     |    PERSONAL     |
-| Smallworld| http://bit.ly/1bNGcKz|Generate Small Worlds|  PERSONAL       |
-| Turf| http://bit.ly/1Ijbd2O| Geo-spatial Analysis|   MIT      |
-| OsmBuildings |http://osmbuildings.org |   OSM Buildings   | PERSONAL|
-| Open Layers 3|http://openlayers.org|High Performance for Mapping needs|PERSONAL         |
-| Karto Graph|http://kartograph.org|  Interactive Vector Maps    |  LGPL       |
-| Mapsicon|http://bit.ly/1G41aBx      |Maps of All Countries|    -     |
-| Cesium                   | http://cesiumjs.org| WebGl Virtual Globe     |   Messed Up License      |
-|SimpleMaps|http://simplemaps.com|Customize maps by editing an online spreadsheet or simple text file. No knowledge of HTML5, Flash, or JavaScript is required. |PRIVATE|
+| Framework/SDK            | Link                  | Type | License |
+|--------------------------|-----------------------|------|---------|
+| Leaflet                  | http://bit.ly/1CIDxvu | 移动友好型交互式地图 |   PERSONAL      |
+| DataMaps                 | http://bit.ly/1FAuQmZ | 在单个 JavaScript 文件中使用 D3.js 完成的在线 SVG 地图可视化方法 |MIT|
+| TopoJSON                 | http://bit.ly/1EZpBuj | 编码拓扑的 GeoJSON |PERSONAL|
+| Leaflet Plugins          | http://bit.ly/1BIVkho | Leaflet 的插件 |  PERSONAL|
+| Leaflet Generator        | https://github.com/moklick/generator-leaflet | Yoeman Generator |  -       |
+| Planetary                | http://planetaryjs.com/ | 交互式三维地球 |    PERSONAL     |
+| Smallworld               | http://mikefowler.me/smallworld.js/ | 生成世界缩略图 |  PERSONAL       |
+| Turf                     | http://turfjs.org/ | 地理空间分析 |   MIT      |
+| OsmBuildings             | http://osmbuildings.org | OSM 建筑物地图（2.5D 视图） | PERSONAL|
+| Open Layers 3            | http://openlayers.org | 高性能制图 |PERSONAL         |
+| Karto Graph              | http://kartograph.org | 交互式矢量地图   |  LGPL       |
+| Mapsicon                 | http://bit.ly/1G41aBx  | 所有国家地图 |    -     |
+| Cesium                   | http://cesiumjs.org | WebGL虚拟地球 |   Messed Up License     |
+| SimpleMaps               | http://simplemaps.com | 通过编辑在线电子表格或简单的文本文件自定义地图。不需要HTML5，Flash或JavaScript的知识。 |PRIVATE|
 
-##### Text Visualization
+##### 文本可视化
 
 | Framework/SDK         | Link | Type | License |
 |-----------------------|------|------|---------|
-| Tangle  |  http://bit.ly/1Dnsjie    | Reactive Documents     |  MIT       |
-|jqCloud|http://bit.ly/1NESz9c|Tag Cloud|PERSONAL|
+| Tangle                | http://bit.ly/1Dnsjie | 反应文件     |  MIT       |
+| jqCloud               | http://bit.ly/1NESz9c | 标签云       | PERSONAL   |
 
-##### D3 Based Libraries
+##### 基于D3的库
 
 | Framework/SDK   | Link | Type | License  |
 |-----------------|------|------|---|
-| NVD3| http://nvd3.org |D3 based reusable Charting Lib   | Apache License V2  |
-| C3| http://c3js.org|   D3 based reusable Charting Lib    | MIT  |
-| DimpleJS| http://dimplejs.org| D3 based reusable Charting Lib     | MIT  |
-| DC| http://bit.ly/1NAI4lm| Dimensional Charting(Based on [CrossFilter](#other-useful-javascript-components))     | Apache License V2  |
-| D3Xter| http://bit.ly/1xU2m7P    | D3 based reusable Charting Lib  | MIT  |
-| MetricsGraphics |http://metricsgraphicsjs.org|OPtimized Viz for Time Series Data      |Mozilla Public License V2   |
-| Epoch|http://bit.ly/1G44VH6 |Realtime Viz Lib      | MIT  |
-| Sparkline|http://bit.ly/1IjkB6P|Small Line Chart without Axis|New BSD  |
-|Dynamic-Charts|http://bit.ly/1E3BlzT|Dynamically populated graphs|TBD|
-|Cubism.js|http://bit.ly/1E3C8Ra|Cubism.js is a D3 plugin for visualizing time series. Use Cubism to construct better realtime dashboards, pulling data from Graphite, Cube and other sources|Apache License|
-|Rickshaw|http://bit.ly/1HPtrJB|A JavaScript toolkit for creating interactive time-series graphs|PRIVATE|
-|function-plot|http://bit.ly/1GaYWxD|Function Plot is a small library built on top of D3.js whose purpose is to render functions with little configuration (think of it as a little clone of Google's plotting utility: y=x2)|MIT|
+| NVD3            | http://nvd3.org | 基于D3的可重用图表库 | Apache License V2  |
+| C3              | http://c3js.org | 基于D3的可重用图表库 | MIT  |
+| DimpleJS        | http://dimplejs.org   | 基于D3的可重用图表库 | MIT  |
+| DC              | http://bit.ly/1NAI4lm | 多维图表(基于 [CrossFilter](#other-useful-javascript-components)) | Apache License V2  |
+| D3Xter          | http://bit.ly/1xU2m7P  | 基于D3的可重用图表库 | MIT  |
+| MetricsGraphics | http://metricsgraphicsjs.org | 时间序列优化可视化方法 |Mozilla Public License V2   |
+| Epoch           | http://bit.ly/1G44VH6 | 实时可视化库 | MIT  |
+| Sparkline       | http://bit.ly/1IjkB6P | 没有坐标轴的小线图 | New BSD  |
+| Dynamic-Charts  | http://bit.ly/1E3BlzT | 动态填充的图形 |TBD|
+| Cubism.js       | http://bit.ly/1E3C8Ra | Cubism.js 是一个用于可视化时间序列的D3插件。使用Cubism构建更好的实时仪表板，从Graphite、Cube或其他资源中提取数据 |Apache License|
+| Rickshaw        | http://bit.ly/1HPtrJB | 用于创建交互式时间序列图的JavaScript工具包 |PRIVATE|
+| function-plot   | http://bit.ly/1GaYWxD | Function Plot 是一个建立在D3.js上面的小型库，它的目标是通过较少配置绘制函数（它是Google绘图实用程序的一个克隆：y=x*x）|MIT|
 
 ##### Flowchart Libraries
 
