@@ -1,10 +1,10 @@
 信息可视化极客(Infoviz Geek)
 ==========
 ![Made By Information Visualization Geeks](https://raw.githubusercontent.com/shivkumarganesh/InfoVizGeek/master/Webchemy.png)
-### 介绍
+## 介绍
 InfoVizGeek 是一个项目，它涉及不同的工具和技术，使个人能够创建数据可视化。这里具有广泛的工具列表及其许可证。这是一个详尽的列表，我很乐意知晓你在社区使用的其他工具。
 
-### 可视化分类
+## 可视化分类
 根据我到现在的研究和理解，我试着为所有的可视化方法设置一个分类。可视化方法可以大致分为如下几类：
 
  1. 图表
@@ -18,14 +18,14 @@ InfoVizGeek 是一个项目，它涉及不同的工具和技术，使个人能�
  9. Multiple
  10. 物理导向图
 
-### 工具 & 框架
+## 工具 & 框架
 
 我们可以把这一节大致分为两部分。
 
  1. 讨论可视化的便利工具
  2. 适用于个人熟悉的编程语言的框架
 
-### 工具
+## 工具
  1. [TileMill](https://www.mapbox.com/tilemill/)
  2. [Spss](http://www-01.ibm.com/software/in/analytics/spss/)
  3. [Matlab](http://in.mathworks.com/products/matlab/)
@@ -49,7 +49,7 @@ InfoVizGeek 是一个项目，它涉及不同的工具和技术，使个人能�
  20. [Orange](http://orange.biolab.si/)
  21. [Lightning - Open Source Data Visualization Server](http://http://lightning-viz.org/-viz.org/)
 
-### 基于编程语言的框架
+## 基于编程语言的框架
  1. [C](#c)
  2. [IOS](#ios)
  2. [JavaScript](#javascript)
@@ -60,31 +60,31 @@ InfoVizGeek 是一个项目，它涉及不同的工具和技术，使个人能�
  7. [Ruby](#ruby)
  8. [R](#r)
 
-### 高级专题
+## 高级专题
 
  1. [知识可视化](#知识可视化)
 
  
-#### C
+### C
 
 | SN0. 	| Framework/SDK 	| Link                  	| License                	|
 |------	|---------------	|-----------------------	|------------------------	|
-| 1    	| GraphViz      	| http://bit.ly/19mQ0Jr 	| Eclipse公共许可证       	|
+| 1    	| GraphViz      	| http://www.graphviz.org/ 	| Eclipse公共许可证       	|
 
 
 _______
 
-#### IOS
+### IOS
 
 | Framework/SDK 	|  Link	| Type                  	| License                	|
 |------	|---------------	|-----------------------	|------------------------	|
-| ios-charts    	|  http://bit.ly/1c2RISl     	| 美观的 MPAndroidChart 的iOS端口。- 用于 IOS 应用的漂亮图表！ | Apache License V2 	|
+| ios-charts	| https://github.com/danielgindi/Charts | 美观的 MPAndroidChart 的iOS端口。- 用于 IOS 应用的漂亮图表！ | Apache License V2 	|
 
 
 _______
 
 
-#### JavaScript
+### JavaScript
 最好将JavaScript 或者其他库根据选项分为更细致的分类。
 
  - [图表库](#图表库)
@@ -95,27 +95,27 @@ _______
  - [其他有用的JavaScript组件](#其他有用的JavaScript组件)
 
 
-##### 图表库
+#### 图表库
 
 | Framework/SDK | Link                      | Type                     | License            |
 |---------------|---------------------------|--------------------------| ------------------ |
-| TauCharts     | http://bit.ly/1Nytafs     | 图表库                   | Apache License      |
-| VisJS         | http://bit.ly/1OUagmW     | 浏览器可视化              | MIT                |
-| TimesheetJS   | http://bit.ly/1xSqRCv     | 数据与事件可视化          |  MIT                |
-| Chartist      | http://bit.ly/1xSrFao     | 响应式图表                | Do Whatever        |
-| ChartJS       | http://bit.ly/1EY68tT     | 简洁美观图表              | PERSONAL           |
-| Ember Charts  | http://bit.ly/1C14qG7     | EmberJS & D3 库          | Apache License     |
-| Rahpael       | http://bit.ly/1IhMcVY     | 矢量绘图                  | MIT                |
-| Sparky        | http://bit.ly/19EwDfc     | 线型图表库                | Unknown            |
-| PolyJS        | http://bit.ly/1Dnbp3x     | 交互式图表                | CC Non Commercial  |
-| JQPlot        | http://bit.ly/19wmSQw     | 绘图和图表                | MIT                |
-| FFChart Well  | http://bit.ly/1CHiUjq     | 图形字体                  | Unknown            |
+| TauCharts     | https://www.taucharts.com/ | 图表库                   | Apache License      |
+| VisJS         | http://visjs.org/          | 浏览器可视化              | MIT                |
+| TimesheetJS   | https://sbstjn.com/timesheet.js/ | 数据与事件可视化          |  MIT                |
+| Chartist      | https://gionkunz.github.io/chartist-js/    | 响应式图表                | Do Whatever        |
+| ChartJS       | http://www.chartjs.org/   | 简洁美观图表              | PERSONAL           |
+| Ember Charts  | http://opensource.addepar.com/ember-charts/#/overview    | EmberJS & D3 库          | Apache License     |
+| Rahpael       | https://dmitrybaranovskiy.github.io/raphael/     | 矢量绘图                  | MIT                |
+| Sparky        | http://prag.ma/code/sparky/     | 线型图表库                | Unknown            |
+| PolyJS        | https://github.com/Polychart/polychart.js/wiki     | 交互式图表                | CC Non Commercial  |
+| JQPlot        | http://www.jqplot.com/     | 绘图和图表                | MIT                |
+| FFChart Well  | https://www.fontfont.com/how-to-use-ff-chartwell     | 图形字体                  | Unknown            |
 | Flot          | http://www.flotcharts.org | Jquery 的 JavaScrip t图表 | PRIVATE            |
-| JSXGraph      | http://bit.ly/1xA9CW1     | 动态数学可视化库           | MIT/GNU            |
+| JSXGraph      | http://jsxgraph.uni-bayreuth.de/wp/index.html     | 动态数学可视化库           | MIT/GNU            |
 | gRaphaël      | http://g.raphaeljs.com    | gRaphaël 的目标是帮助你在网站上创建令人惊叹的图表。它依赖于 Raphaël 图形库 |MIT|
 | Highcharts    | http://www.highcharts.com | 为你的Web项目轻松创建交互式图表       |CC Non-Commercial V3 or PRIVATE|
 
-##### 地图
+#### 地图
 
 | Framework/SDK            | Link                  | Type | License |
 |--------------------------|-----------------------|------|---------|
@@ -134,14 +134,14 @@ _______
 | Cesium                   | http://cesiumjs.org | WebGL虚拟地球 |   Messed Up License     |
 | SimpleMaps               | http://simplemaps.com | 通过编辑在线电子表格或简单的文本文件自定义地图。不需要HTML5，Flash或JavaScript的知识。 |PRIVATE|
 
-##### 文本可视化
+#### 文本可视化
 
 | Framework/SDK         | Link | Type | License |
 |-----------------------|------|------|---------|
 | Tangle                | http://worrydream.com/Tangle/ | 反应文件     |  MIT       |
 | jqCloud               | http://www.lucaongaro.eu/demos/jqcloud/ | 标签云       | PERSONAL   |
 
-##### 基于D3的库
+#### 基于D3的库
 
 | Framework/SDK   | Link | Type | License  |
 |-----------------|------|------|---|
@@ -158,7 +158,7 @@ _______
 | Rickshaw        | http://code.shutterstock.com/rickshaw/ | 用于创建交互式时间序列图的JavaScript工具包 |PRIVATE|
 | function-plot   | http://turfjs.org/ | Function Plot 是一个建立在D3.js上面的小型库，它的目标是通过较少配置绘制函数（它是Google绘图实用程序的一个克隆：y=x*x）|MIT|
 
-##### 流程图库
+#### 流程图库
 
 | Framework/SDK | Link | Type | License |
 |---------------|------|------|---------|
@@ -172,7 +172,7 @@ _______
 | JSNetworkX    | http://jsnetworkx.org/ | JSNetworkX 允许你使用JavaScript构建、处理和分析图形。它可以与浏览器中的D3.js一起使用来创建交互式图形可视化。 |BSD|
 | CodeFlower Visualization | http://bit.ly/1DiX9XB | 此实验使用交互式树状可视化源存储库。每个盘表示一个文件，其半径与代码行数（loc）成比例。所有的渲染都是在客户端的JavaScript中完成的。 |PRIVATE|
 
-##### 其他有用的JavaScript组件
+#### 其他有用的JavaScript组件
 
 | Framework/SDK         | Link | Type | License |
 |-----------------------|------|------|---------|
@@ -187,7 +187,7 @@ _______
 | Visual sedimentation  | http://www.visualsedimentation.org | 视觉沉淀是一种新颖的设计隐喻，逐渐生成和更新流数据的可视化，灵感来自物理沉淀过程  |PRIVATE|
 _________________________________________________
 
-#### Java
+### Java
 
 | Framework/SDK | Link | Type | Platform | License |
 |---------------|-----------------------|----------------------------|----------------|----------------|
@@ -198,17 +198,17 @@ _________________________________________________
 
 ____________________________________________________________________
 
-#### Flash
+### Flash
 
 | Framework/SDK         | Link | Type | License |
 |-----------------------|------|------|---------|
 
 _____________________________________________________________________
-#### Processing
+### Processing
 | Framework/SDK         | Link | Type | License |
 |-----------------------|------|------|---------|
 _____________________________________________________________________
-#### Python
+### Python
 | Framework/SDK | Link | Type | License |
 |---------------|----------------------------|---------------------------|----------|
 | Bokeh | http://bokeh.pydata.org/en/latest/ | 交互式可视化 | BSD |
@@ -224,11 +224,11 @@ _____________________________________________________________________
 | Plotly |https://plot.ly  | 在线数据可视化 |PRIVATE  |
 
 _________________________________________________________________________
-#### Ruby
+### Ruby
 | Framework/SDK         | Link | Type | License |
 |-----------------------|------|------|---------|
 __________________________________________________
-#### R
+### R
 | Framework/SDK         | Link | Type | License |
 |-----------------------|------|------|---------|
 | rCharts | https://ramnathv.github.io/rCharts/ | 从R使用熟悉的格子样式绘图界面创建、自定义和发布交互式JavaScript可视化的 R 包。 |MIT|
@@ -236,17 +236,17 @@ __________________________________________________
 
 _________________________________________________
 
-#### 知识可视化
+### 知识可视化
 
 | Framework/SDK | Link | Type | License |
 |---------------|------|------|---------|
 | Cytoscape     | http://www.cytoscape.org | Cytoscape 是一个用于可视化复杂网络并将其与任何类型的属性数据集成的开源软件平台。也有一个 [JavaScript 实现](#flowchart-libraries) |LGPL|
 | RDF-Gravity   | http://bit.ly/1JlAWc7 | RDF 图形可视化工具 |PRIVATE|
-| Gruff         | http://bit.ly/1DHAwy4 | A Grapher-Based Triple-Store Browser for AllegroGraph | UNKNOWN |
-| Sgvizler      | http://bit.ly/1c577la | Sgvizler 是一个 javascript 脚本文件，它可以渲染 SPARQL SELECT 查询结果到图标或者 HTML 元素中。 |NOT SURE|
-| SOVA          | http://stanford.io/1FiJP2b | SOVA (Simple Ontology Visualization API,简单的本体可视化API) 是完整的本体可视化的Protege插件。最后，我们可以显示所有本体的元素：类、个体、属性、匿名类和这些对象之间的关系。 |LGPL V3|
-| VRAER         | http://bit.ly/1GItS9K | 查看RDF中的关系、属性和实体 |UNKNOWN|
+| Gruff         | https://franz.com/agraph/gruff/ | A Grapher-Based Triple-Store Browser for AllegroGraph | UNKNOWN |
+| Sgvizler      | http://dev.data2000.no/sgvizler/ | Sgvizler 是一个 javascript 脚本文件，它可以渲染 SPARQL SELECT 查询结果到图标或者 HTML 元素中。 |NOT SURE|
+| SOVA          | https://protegewiki.stanford.edu/wiki/SOVA | SOVA (Simple Ontology Visualization API,简单的本体可视化API) 是完整的本体可视化的Protege插件。最后，我们可以显示所有本体的元素：类、个体、属性、匿名类和这些对象之间的关系。 |LGPL V3|
+| VRAER         | https://tw.rpi.edu//web/tool/vraer | 查看RDF中的关系、属性和实体 |UNKNOWN|
 | Wandora       | http://wandora.org | Wandora 是收集和处理信息的工具，特别是联网知识和万维资源知识。 |GNU GPL V3|
-| Gource        | http://bit.ly/1DIJD1s | 软件版本控制可视化 |GNU GPL V3|
+| Gource        | https://code.google.com/archive/p/gource/ | 软件版本控制可视化 |GNU GPL V3|
 
 
